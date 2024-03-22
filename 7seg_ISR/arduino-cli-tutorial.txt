@@ -1,0 +1,35 @@
+Para compilar e carregar um sketch do Arduino a partir da linha de comando, você precisará do Arduino CLI (Command Line Interface). Aqui estão as etapas para fazer isso:
+
+1. Primeiro, você precisa instalar o Arduino CLI. Você pode baixá-lo do GitHub oficial do Arduino CLI (https://github.com/arduino/arduino-cli). Após o download, extraia o arquivo e mova-o para um local de sua escolha.
+
+2. Abra o terminal e navegue até o diretório onde você extraiu o Arduino CLI.
+
+3. Antes de compilar o sketch, você precisa atualizar o índice de pacotes do Arduino CLI. Isso pode ser feito com o seguinte comando:
+
+```bash
+./arduino-cli core update-index
+```
+
+4. Em seguida, você precisa instalar o núcleo para a placa que está usando. Por exemplo, se você estiver usando o Arduino Uno, você precisará do núcleo `arduino:avr`. Isso pode ser instalado com o seguinte comando:
+
+```bash
+./arduino-cli core install arduino:avr
+```
+
+5. Agora você pode compilar o sketch. Navegue até o diretório que contém o sketch e use o seguinte comando para compilar:
+
+```bash
+./arduino-cli compile --fqbn arduino:avr:uno MyFirstSketch
+```
+
+Substitua `MyFirstSketch` pelo nome do seu sketch.
+
+6. Finalmente, você pode carregar o sketch para a sua placa. Certifique-se de que a placa está conectada ao seu computador e use o seguinte comando para carregar:
+
+```bash
+./arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno MyFirstSketch
+```
+
+Substitua `/dev/ttyACM0` pelo nome da porta onde a sua placa está conectada.
+
+Espero que isso ajude! Se você tiver mais perguntas, sinta-se à vontade para perguntar.
