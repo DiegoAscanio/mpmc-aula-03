@@ -13,12 +13,17 @@
     }
 </style>
 
-## *Timers* e Contadores no Arduino
+## *Timers* e Contadores
 
-No Atmega328p, o microcontrolador do Arduino Uno, existem 3 *timers* que podem ser utilizados para contagem de tempo. Cada *timer* possui um *prescaler* que pode ser configurado para dividir a frequência do clock do microcontrolador. O *prescaler* é um divisor de frequência que pode ser configurado para dividir a frequência do clock do microcontrolador por 1, 8, 64, 256 ou 1024.
+### *Timers*
 
-### *Prescaler*
+Os *timers* (ou temporizadores) são componentes internos de microcontroladores que permitem a contagem do tempo — diferença entre instante de tempo final e instante de tempo inicial — em um sistema.
 
-O *prescaler* pode ser usado para reduzir a frequência do clock do microcontrolador e, consequentemente, a frequência de contagem do *timer*. Isso é útil para contagens de tempo mais longas, como segundos, minutos e horas.
+Funcionam a partir do incremento de um contador interno a cada ciclo (ou múltiplo de ciclo) de clock do microcontrolador.
 
-Suponha que você precise de um timer que funcione a cada 1 segundo (1Hz). Se o clock do microcontrolador for de 16MHz, a frequência de contagem do timer será de 16MHz. Para obter uma frequência de contagem de 1Hz, você pode configurar o *prescaler* para dividir a frequência do clock por 16.000.000. Isso resultará em uma frequência de contagem de 1Hz.
+Quando o contador de tempo do *timer* atinge um valor pré-determinado pelo programador, ele pode gerar uma interrupção, que pode ser usada para forçar o microcontrolador a executar uma rotina específica (ISR) que deva ser executada a cada intervalo de tempo.
+
+### Contadores
+
+Os contadores são os componentes que permitem a contagem de eventos que ocorrem em um sistema (exemplo: ciclos de clock, pulsos de um sensor, etc) sendo portanto, base para a implementação dos *timers*. A partir de agora, para o contexto da disciplina, consideramos que *timers* e contadores são a mesma coisa.
+
