@@ -17,4 +17,4 @@
 
 ### Timer0
 
-O entendimento do funcionamento dos *timers* no Arduino começa 
+O `Timer0` é um bom ponto de partida para entender o funcionamento dos timers no Arduino. Para isso é necessário entender os registradores básicos presentes nele.
