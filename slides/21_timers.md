@@ -1,20 +1,5 @@
-<style scoped>
-    ul, ol {
-        font-size: 16px;
-    }
-    h2 {
-        font-size: 28px;
-    }
-    h3 {
-        font-size: 24px;
-    }
-    p {
-        font-size: 18px;
-    }
-</style>
+## _Timers_ e Contadores no Arduino — Funcionamento
 
-## *Timers* e Contadores no Arduino — Funcionamento
+Apesar de existirem 3 *timers* no ATmega328P, apenas dois deles são acessíveis diretamente pelo usuário: `Timer1` e `Timer2`, pois, o `Timer0` é utilizado pelo Arduino para funções internas.
 
-### Timer0
-
-O `Timer0` é um bom ponto de partida para entender o funcionamento dos timers no Arduino. Para isso é necessário entender os registradores básicos presentes nele.
+Assim, serão vistas algumas formas de contagem de tempo e associação de *triggers* — eventos — a serem executados quando o tempo atingir o valor desejado.

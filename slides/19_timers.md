@@ -30,3 +30,5 @@ Nos microcontroladores ATMega16 / ATMega32 (usados no Arduino UNO e Nano) existe
 1. `Timer0`: Timer de 8 bits, capaz de contar de 0 a 255;
 2. `Timer1`: Timer de 16 bits, capaz de contar de 0 a 65535;
 3. `Timer2`: Timer de 8 bits, capaz de contar de 0 a 255.
+
+Na aula de hoje vamos focar no uso de *timers* no Arduino para a contagem de tempo.

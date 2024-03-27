@@ -13,3 +13,5 @@
 2. WINGS, ELECTRONIC. Clear Timer on Compare Match (CTC mode) in AVR ATmega16/ATmega32, 2023. Disponível em: [<https://www.electronicwings.com/avr-atmega/atmega1632-clear-timer-on-compare-match-ctc-mode>](https://www.electronicwings.com/avr-atmega/atmega1632-clear-timer-on-compare-match-ctc-mode). Acesso em: 22 mar. 2024. 
 
 3. BRASIL, AGÊNCIA. Itaipu abre vertedouro para escoar excesso de água, 2023. Disponível em: [<https://agenciabrasil.ebc.com.br/geral/noticia/2023-11/itaipu-abre-vertedouro-para-escoar-excesso-de-agua>](https://agenciabrasil.ebc.com.br/geral/noticia/2023-11/itaipu-abre-vertedouro-para-escoar-excesso-de-agua). Acesso em: 22 mar. 2024. 
+
+4. MICROCHIP. ATmega328p: 8-bit AVR Microcontroller with 32K Bytes In-System Programmable Flash DATASHEET. Chandler, AZ: Microchip Technology Inc, 2015. 
