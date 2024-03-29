@@ -55,6 +55,8 @@ Tabela 1 — Bits do registrador de controle `TCCR2B` do `Timer2`
 
 </div>
 
+Para os propósitos desta aula, apenas os bits de configuração `CS22`, `CS21` e `CS20` são relevantes. Os bits `WGM22`, `FOC2A` e `FOC2B` são utilizados para configuração de outros modos de operação do `Timer2`, como PWM, e não serão abordados ainda.
+
 </div>
 <div class="column-container" markdown="1">
 
@@ -69,7 +71,7 @@ Tabela 1 — Bits do registrador de controle `TCCR2B` do `Timer2`
 | 1    | 1    | 0    | \\(\frac{{\text{clk}}\_{\text{T2S}}}{256}\\) (com prescaler)                 |
 | 1    | 1    | 1    | \\(\frac{{\text{clk}}\_{\text{T2S}}}{1024}\\) (com prescaler)                |
 
-<span id="Tabela-1"></span>
+<span id="Tabela-2"></span>
 
 <div id="t-caption" markdown="1">
 
