@@ -54,7 +54,7 @@ Agora que já existem as funções necessárias é preciso definir as entradas e
 <div class="flex-container">
 <div class="column-container">
 
-Não adianta associar uma rotina ao overflow do Timer2 se a interrupção de overflow do Timer2 não estiverem habilitadas. Para fazer isto é necessário habilitá-la no registrador `TIMSK2` setando seu bit menos significativo para 1, pois, seu bit menos significativo corresponde ao bit `TOIE2` que habilita a interrupção de overflow do Timer2.
+Não adianta associar uma rotina ao overflow do Timer2 se a interrupção de overflow do Timer2 não estiver habilitada. Para fazer isto é necessário habilitá-la no registrador `TIMSK2` setando seu bit menos significativo para 1, pois, seu bit menos significativo corresponde ao bit `TOIE2` que habilita a interrupção de overflow do Timer2.
 
 <div id="codigo-container" markdown="1">
 
