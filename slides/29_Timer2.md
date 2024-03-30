@@ -29,8 +29,6 @@
 
 ## _Timers_ e Contadores no Arduino — Timer 2 — Funcionamento e Aplicações
 
-Agora que já existem as funções necessárias é preciso definir as entradas e saídas para o Farol e seu botão de controle, além de configurar o Timer2 para o controle do tempo, pois, isto até o momento não foi feito.
-
 ### Configuração do Timer2
 
 O `Timer2` tem dois registradores de controle que precisam ser configurados: o `TCCR2A` e o `TCCR2B`. O `TCCR2A` não foi visto ainda porque não é necessário modificar o modo de operação do `Timer2` para o que é desejado fazer — o `TCCR2A` é associado a modos de operação distintos da contagem como PWM e geração de ondas quadradas.

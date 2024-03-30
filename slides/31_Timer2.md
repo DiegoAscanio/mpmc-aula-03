@@ -8,8 +8,11 @@
     h3 {
         font-size: 17px;
     }
-    p {
+    h4 {
         font-size: 15px;
+    }
+    p {
+        font-size: 13px;
     }
     #codigo-container {
         display: flex;
@@ -28,8 +31,6 @@
 </style>
 
 ## _Timers_ e Contadores no Arduino — Timer 2 — Funcionamento e Aplicações
-
-Agora que já existem as funções necessárias é preciso definir as entradas e saídas para o Farol e seu botão de controle, além de configurar o Timer2 para o controle do tempo, pois, isto até o momento não foi feito.
 
 ### Configuração do Timer2
 

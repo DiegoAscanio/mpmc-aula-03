@@ -47,8 +47,6 @@
 
 ## _Timers_ e Contadores no Arduino — Timer 2 — Funcionamento e Aplicações
 
-Agora que já existem as funções necessárias é preciso definir as entradas e saídas para o Farol e seu botão de controle, além de configurar o Timer2 para o controle do tempo, pois, isto até o momento não foi feito.
-
 ### Configuração do Timer2
 
 <div class="flex-container">
