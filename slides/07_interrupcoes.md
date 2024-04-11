@@ -22,7 +22,7 @@
 <div class="flex-container footnotesize">
 <div class="column-container" markdown="1">
 
-Como ditor anteriormente, as interrupções externas do Arduino são associadas apenas aos pinos 2 e 3.
+Como dito anteriormente, as interrupções externas do Arduino são associadas apenas aos pinos 2 e 3.
 
 - Geradas por eventos externos ao microcontrolador, como pressionar um botão ou um sinal de um sensor.
 
